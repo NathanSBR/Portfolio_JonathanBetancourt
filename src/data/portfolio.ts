@@ -1,0 +1,93 @@
+import type { PortfolioData } from "@/types/portfolio";
+
+export const portfolio: PortfolioData = {
+  person: {
+    name: "Jonathan Stevens Betancourt Romero",
+    shortName: "Jonathan Betancourt",
+    initials: "JB",
+    role: "QA Automation Engineer",
+    headline: "Software Automation Engineer | QA Automation | RPA | AI Engineer | Backend",
+    description: "Ingeniero Informático especializado en automatización de software, QA Automation, RPA, pruebas de APIs, inteligencia artificial aplicada y desarrollo backend.",
+    email: "jonathansbromero@gmail.com",
+    location: "Bogotá, Colombia",
+    availability: null,
+    cvUrl: "/cv/Jonathan-Betancourt-CV.pdf",
+  },
+  about: {
+    title: "Automatización de software con calidad e ingeniería",
+    summary: "Soy Ingeniero Informático y QA Automation Engineer con enfoque en automatización de software. Integro QA Automation, RPA, pruebas de APIs, inteligencia artificial aplicada y desarrollo backend para reducir tareas repetitivas, detectar errores temprano y construir soluciones confiables. Estas áreas representan mi especialización profesional, con QA Automation como perfil principal.",
+    values: [
+      { title: "Especialidades", description: "Software Automation, QA Automation, RPA Engineering, IA aplicada, API Testing y desarrollo backend." },
+      { title: "Forma de trabajo", description: "Analizo primero los riesgos y flujos críticos, diseño soluciones mantenibles, automatizo de forma incremental y valido los resultados mediante métricas." },
+      { title: "Enfoque", description: "Calidad desde etapas tempranas, colaboración con desarrollo y negocio, documentación clara y mejora continua." },
+    ],
+    education: { degree: "Ingeniería Informática", institution: "Universidad Militar Nueva Granada", period: "2022 – 2026" },
+    languages: [
+      { name: "Español", level: "Nativo", code: "ES", flag: "🇪🇸", active: true },
+      { name: "Inglés", level: "B2", code: "EN", flag: "🇬🇧", active: false },
+      { name: "Alemán", level: "A1", code: "DE", flag: "🇩🇪", active: false },
+    ],
+  },
+  contact: {
+    title: "Conversemos sobre automatización de software",
+    description: "Estoy abierto a oportunidades y proyectos de QA Automation, RPA, pruebas de APIs, inteligencia artificial aplicada, CI/CD y desarrollo backend.",
+  },
+  footerText: "Desarrollado con Next.js · Software Automation, QA, RPA, AI Engineer y Backend",
+  navigation: [
+    { label: "Inicio", href: "#inicio" },
+    { label: "Sobre mí", href: "#sobre-mi" },
+    { label: "Proyectos", href: "#proyectos" },
+    { label: "Experiencia", href: "#experiencia" },
+    { label: "Stack", href: "#stack" },
+    { label: "Contacto", href: "#contacto" },
+  ],
+  socialLinks: [
+    { label: "GitHub", href: "https://github.com/NathanSBR", short: "GH" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/jonathansbromero/", short: "in" },
+    { label: "Correo", href: "mailto:jonathansbromero@gmail.com", short: "@" },
+  ],
+  specialties: [
+    { icon: "SA", title: "Software Automation Engineer", description: "Diseño de soluciones de automatización mantenibles para optimizar procesos, reducir tareas repetitivas y mejorar la confiabilidad del software." },
+    { icon: "QA", title: "QA Automation", description: "Automatización end-to-end, funcional y de regresión con Playwright, Cypress y Serenity BDD, integrada a procesos CI/CD." },
+    { icon: "RPA", title: "RPA", description: "Estrategias de calidad para procesos RPA, gestión de defectos y certificación de releases con resultados medibles." },
+    { icon: "AI", title: "AI Engineer", description: "Prompt engineering y modelos de lenguaje aplicados a automatización, análisis y construcción de soluciones inteligentes." },
+    { icon: "BE", title: "Backend", description: "Desarrollo y validación de APIs REST y datos con Python, TypeScript, Node.js, Postman, SoapUI y SQL." },
+  ],
+  achievements: [
+    { value: 50, suffix: "+", label: "Flujos E2E automatizados", icon: "✓" },
+    { value: 30, suffix: "%", label: "Hasta 30% menos tiempo de regresión", icon: "◷" },
+    { value: 90, suffix: "%", label: "Cerca de 90% de aprobación en certificaciones RPA", icon: "◎" },
+    { value: 70, suffix: "%", label: "Más de 70% menos tiempo en generación de informes", icon: "↗" },
+  ],
+  projects: [
+    { title: "Sistema de automatización de procesos", category: "Proyecto provisional", description: "Información verificable pendiente de actualización.", problem: null, solution: null, result: null, technologies: [], image: null, demoUrl: null, repositoryUrl: null, accent: "#2563eb" },
+    { title: "API para gestión empresarial", category: "Proyecto provisional", description: "Información verificable pendiente de actualización.", problem: null, solution: null, result: null, technologies: [], image: null, demoUrl: null, repositoryUrl: null, accent: "#0f172a" },
+    { title: "Plataforma web con inteligencia artificial", category: "Proyecto provisional", description: "Información verificable pendiente de actualización.", problem: null, solution: null, result: null, technologies: [], image: null, demoUrl: null, repositoryUrl: null, accent: "#1e40af" },
+  ],
+  experience: [
+    {
+      company: "Software Quality Assurance S.A. (SQA)", role: "Analista de Automatización QA", period: "Octubre 2025 – Abril 2026", location: "Bogotá, Colombia", clients: ["Telefónica/Movistar", "Porvenir"],
+      description: "Automaticé más de 50 flujos de prueba E2E con Playwright y Serenity BDD, reduciendo hasta un 30% el tiempo de regresión por sprint. Diseñé pruebas funcionales, de regresión y E2E, validé APIs REST con Postman y SoapUI, realicé consultas SQL y gestioné defectos en Jira y Azure DevOps. También lideré estrategias de prueba para ciclos de certificación RPA con una aprobación cercana al 90%.",
+      technologies: ["Playwright", "Serenity BDD", "Postman", "SoapUI", "SQL", "Jira", "Azure DevOps", "RPA", "Scrum", "Kanban"],
+    },
+    {
+      company: "Seguros del Estado", role: "Analista de Datos — Práctica Profesional", period: "Febrero 2025 – Agosto 2025", location: "Bogotá, Colombia",
+      description: "Automaticé la actualización de dashboards ejecutivos en Power BI cada 30 minutos y reduje en más de un 70% el tiempo de generación de informes mediante Excel y SQL. Construí indicadores con DAX, consolidé distintas fuentes de datos y apoyé decisiones ejecutivas mediante análisis y visualizaciones.",
+      technologies: ["Power BI", "DAX", "Power Query", "Excel", "SQL", "Python"],
+    },
+    {
+      company: "Teleperformance", role: "Moderador de Contenido", period: "Marzo 2023 – Enero 2024", location: "Bogotá, Colombia",
+      description: "Analicé contenido digital aplicando políticas y criterios de calidad, controlé indicadores de productividad y calidad, y detecté incidencias para su escalamiento y resolución con equipos multidisciplinarios.",
+      technologies: ["Control de calidad", "KPI", "SLA", "Análisis operativo"],
+    },
+  ],
+  technologies: [
+    { name: "Playwright", short: "PW", color: "#15803d" }, { name: "Cypress", short: "CY", color: "#0f766e" }, { name: "Serenity BDD", short: "SB", color: "#2563eb" },
+    { name: "Postman", short: "PM", color: "#ea580c" }, { name: "SoapUI", short: "SU", color: "#84cc16" }, { name: "Python", short: "PY", color: "#2563eb" },
+    { name: "TypeScript", short: "TS", color: "#2563eb" }, { name: "JavaScript", short: "JS", color: "#ca8a04" }, { name: "Next.js", short: "NX", color: "#111827" },
+    { name: "React", short: "RE", color: "#0891b2" }, { name: "Node.js", short: "NO", color: "#15803d" }, { name: "Express", short: "EX", color: "#374151" },
+    { name: "PostgreSQL", short: "PG", color: "#2563eb" }, { name: "MySQL", short: "MY", color: "#0284c7" }, { name: "MongoDB", short: "MO", color: "#15803d" },
+    { name: "Docker", short: "DK", color: "#0284c7" }, { name: "Git", short: "GT", color: "#ea580c" }, { name: "GitHub Actions", short: "GA", color: "#2563eb" },
+    { name: "Jira", short: "JI", color: "#2563eb" }, { name: "Azure DevOps", short: "AZ", color: "#0078d4" }, { name: "Power BI", short: "BI", color: "#ca8a04" },
+  ],
+};
