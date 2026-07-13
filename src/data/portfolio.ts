@@ -11,7 +11,7 @@ export const portfolio: PortfolioData = {
     email: "jonathansbromero@gmail.com",
     location: "Bogotá, Colombia",
     availability: null,
-    cvUrl: "/cv/Jonathan-Betancourt-CV.pdf",
+    cvUrl: "/cv/CV-Jonathan-Betancourt-Software-Automation-Engineer.pdf",
   },
   about: {
     title: "Automatización de software con calidad e ingeniería",

@@ -83,7 +83,11 @@ export const uiCopy: Record<Locale, UiCopy> = {
 
 const enPortfolio: PortfolioData = {
   ...esPortfolio,
-  person: { ...esPortfolio.person, description: "Computer Engineer specializing in software automation, QA Automation, RPA, API testing, applied artificial intelligence and backend development." },
+  person: {
+    ...esPortfolio.person,
+    description: "Computer Engineer specializing in software automation, QA Automation, RPA, API testing, applied artificial intelligence and backend development.",
+    cvUrl: "/cv/Resume-Jonathan-Betancourt-Software-Automation-Engineer.pdf",
+  },
   about: {
     ...esPortfolio.about,
     title: "Software automation through quality and engineering",
@@ -134,7 +138,11 @@ const enPortfolio: PortfolioData = {
 
 const dePortfolio: PortfolioData = {
   ...esPortfolio,
-  person: { ...esPortfolio.person, description: "Informatikingenieur mit Spezialisierung auf Softwareautomatisierung, QA-Automatisierung, RPA, API-Tests, angewandte künstliche Intelligenz und Backend-Entwicklung." },
+  person: {
+    ...esPortfolio.person,
+    description: "Informatikingenieur mit Spezialisierung auf Softwareautomatisierung, QA-Automatisierung, RPA, API-Tests, angewandte künstliche Intelligenz und Backend-Entwicklung.",
+    cvUrl: "/cv/Resume-Jonathan-Betancourt-Software-Automation-Engineer.pdf",
+  },
   about: {
     ...esPortfolio.about,
     title: "Softwareautomatisierung durch Qualität und Engineering",
