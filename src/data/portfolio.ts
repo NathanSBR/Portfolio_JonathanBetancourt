@@ -73,8 +73,8 @@ export const portfolio: PortfolioData = {
       repositoryUrl: "https://github.com/NathanSBR/qa-report-automation",
       accent: "#d96b4b",
     },
-    { title: "API para gestión empresarial", category: "Proyecto provisional", description: "Información verificable pendiente de actualización.", problem: null, solution: null, result: null, technologies: [], image: null, demoUrl: null, repositoryUrl: null, accent: "#0f172a" },
-    { title: "Plataforma web con inteligencia artificial", category: "Proyecto provisional", description: "Información verificable pendiente de actualización.", problem: null, solution: null, result: null, technologies: [], image: null, demoUrl: null, repositoryUrl: null, accent: "#1e40af" },
+    { title: "API para gestión empresarial", category: "En desarrollo", description: "Actualmente en fase de desarrollo. Próximamente se publicarán avances, demostración y código.", problem: null, solution: null, result: null, technologies: [], image: null, demoUrl: null, repositoryUrl: null, accent: "#0f172a" },
+    { title: "Plataforma web con inteligencia artificial", category: "En desarrollo", description: "Actualmente en fase de desarrollo. Próximamente se publicarán avances, demostración y código.", problem: null, solution: null, result: null, technologies: [], image: null, demoUrl: null, repositoryUrl: null, accent: "#1e40af" },
   ],
   experience: [
     {
