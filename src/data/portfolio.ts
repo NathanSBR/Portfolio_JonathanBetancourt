@@ -78,6 +78,11 @@ export const portfolio: PortfolioData = {
   ],
   experience: [
     {
+      company: "Inetum", role: "Programador Staff — Ingeniero de Datos (Python)", period: "Agosto 2026 – Actualidad", location: "Bogotá, Colombia", clients: ["BBVA"],
+      description: "Me vinculé como Ingeniero de Datos (Python) al equipo de Inetum para el cliente BBVA. Actualmente realizo la formación en desarrollo seguro y ADA como parte del proceso de incorporación al proyecto.",
+      technologies: ["Python", "Ingeniería de datos", "Desarrollo seguro", "ADA"],
+    },
+    {
       company: "Software Quality Assurance S.A. (SQA)", role: "Analista de Automatización QA", period: "Octubre 2025 – Abril 2026", location: "Bogotá, Colombia", clients: ["Telefónica/Movistar", "Porvenir"],
       description: "Automaticé más de 50 flujos de prueba E2E con Playwright y Serenity BDD, reduciendo hasta un 30% el tiempo de regresión por sprint. Diseñé pruebas funcionales, de regresión y E2E, validé APIs REST con Postman y SoapUI, realicé consultas SQL y gestioné defectos en Jira y Azure DevOps. También lideré estrategias de prueba para ciclos de certificación RPA con una aprobación cercana al 90%.",
       technologies: ["Playwright", "Serenity BDD", "Postman", "SoapUI", "SQL", "Jira", "Azure DevOps", "RPA", "Scrum", "Kanban"],
@@ -86,6 +91,11 @@ export const portfolio: PortfolioData = {
       company: "Seguros del Estado", role: "Analista de Datos — Práctica Profesional", period: "Febrero 2025 – Agosto 2025", location: "Bogotá, Colombia",
       description: "Automaticé la actualización de dashboards ejecutivos en Power BI cada 30 minutos y reduje en más de un 70% el tiempo de generación de informes mediante Excel y SQL. Construí indicadores con DAX, consolidé distintas fuentes de datos y apoyé decisiones ejecutivas mediante análisis y visualizaciones.",
       technologies: ["Power BI", "DAX", "Power Query", "Excel", "SQL", "Python"],
+    },
+    {
+      company: "SportMaps.co (Gestión Deportiva Integral)", role: "Analista QA & Full Stack Developer Junior — Freelance", period: "Enero 2024 – Noviembre 2024", location: "Remoto",
+      description: "Desarrollé interfaces responsivas y componentes reutilizables en Angular y React para módulos de academias, entrenadores y atletas. Integré APIs REST para la gestión de alumnos, pagos recurrentes y asistencia. Validé end-to-end los flujos críticos de pago, documenté su funcionamiento y corregí incidencias en producción, priorizando el registro de academias, la asistencia y los pagos.",
+      technologies: ["Angular", "React", "TypeScript", "REST APIs", "Pruebas E2E", "QA"],
     },
     {
       company: "Teleperformance", role: "Moderador de Contenido", period: "Marzo 2023 – Enero 2024", location: "Bogotá, Colombia",
